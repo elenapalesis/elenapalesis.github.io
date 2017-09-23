@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+	display: table-cell;
+    background-color: cream;
+    font-family: 'Bungee', serif;
+    height: 100%;
+    /* margin:100px 50px 100px 50px; */
+    vertical-align: middle;
+}
+
+
+h1 {
+    color: #FADBD8;
+    font-size: 5em;
+    font-family: 'Bungee Shade', serif;
+}
+p {
+	font-family: 'Bungee', serif;
+	font-size: 2em
+}
+
+a:link {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	background-color: #FADBD8;
+	font-weight: bold;
+
+}
